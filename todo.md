@@ -19,4 +19,4 @@
 - [x] Run type checks, tests, and production build; resolve any failures.
 - [x] Capture desktop and mobile screenshots and correct layout or readability issues.
 - [x] Create a private GitHub repository and push the completed application.
-- [ ] Save a final project checkpoint and instruct the user to publish through the Management UI.
+- [x] Save a final project checkpoint and instruct the user to publish through the Management UI.
