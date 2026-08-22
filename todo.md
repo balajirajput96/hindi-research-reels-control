@@ -1,0 +1,22 @@
+# Project TODO
+
+- [x] Define database tables for reel records, source metadata, operations snapshots, and import audit events.
+- [x] Create a safe import routine that maps the existing 3,000-reel manifest, Reel 0001 metadata, QC status, checkpoint, and research files into dashboard records without exposing credentials.
+- [x] Implement typed backend procedures for overview metrics, filterable reel lists, batch views, operations state, and Reel 0001 detail.
+- [x] Seed the dashboard only with verified existing artifact facts, including the Drive authentication blocker and Reel 0001 local QC status.
+- [x] Build an elegant responsive dashboard shell with desktop sidebar navigation and mobile navigation.
+- [x] Build summary metric cards for planned, locally rendered, QC-passed, Drive-verified, blocked, and failed reels.
+- [x] Build a searchable, filterable reel registry with domain and workflow-status filters, source links, and local artifact metadata.
+- [x] Build a batch view that groups the 3,000 planned reels into 100 batches of 30 and surfaces batch readiness.
+- [x] Build the Reel 0001 detail view with its Hindi script, evidence notes, caption/source metadata, local render state, and Drive-completion blocker.
+- [x] Build an operations panel for GPT-OSS feasibility, video-generation quota, Google Drive verification, and daily continuation schedule state.
+- [x] Add accessible loading, empty, error, and status states without claiming unverified integrations are connected.
+- [x] Add Vitest coverage for the import mapper and operational status calculations.
+- [x] Write project documentation covering architecture, artifact sources, safe local-to-Drive workflow, and deployment limitations.
+- [x] Add GitHub Actions validation for type checks, tests, and production builds.
+- [x] Replace synthetic seed assumptions with verified artifact-file imports and confirm the dashboard shows imported values.
+- [x] Add explicit error and empty states for all dashboard data queries.
+- [x] Run type checks, tests, and production build; resolve any failures.
+- [x] Capture desktop and mobile screenshots and correct layout or readability issues.
+- [ ] Create a private GitHub repository and push the completed application.
+- [ ] Save a final project checkpoint and instruct the user to publish through the Management UI.
